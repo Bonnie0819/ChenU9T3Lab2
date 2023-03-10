@@ -13,6 +13,7 @@ public class Shape {
   public static final String RECTANGLE = "Rectangle"; // constant for rectangle
   public static final String OVAL = "Oval";           // constant for oval
   public static final String ARC = "Arc";             //constant for arc
+  public static final String LINE = "Line";           //constant for line
 
   // private instance variables
   private Color color; // color to draw shape in
@@ -21,9 +22,15 @@ public class Shape {
 
   /** Constructor */
   public Shape() {
-    color = Color.black;
+    color = Color.blue;
     p1 = new Point();
     p2 = new Point();
+  }
+  public Point getP1() {
+    return p1;
+  }
+  public Point getP2() {
+    return p2;
   }
   
   public Color getColor() {
