@@ -145,6 +145,8 @@ public class ShapeIComponent extends JComponent {
         currentShape = new Rectangle();
       } else if (currShapeType.equals(Shape.OVAL)) {
         currentShape = new Oval();
+      } else if(currShapeType.equals(Shape.ARC)) {
+        currentShape = new Arc();
       }
       
       // set point 1 in the new shape

@@ -12,6 +12,7 @@ public class Shape {
   // public constants
   public static final String RECTANGLE = "Rectangle"; // constant for rectangle
   public static final String OVAL = "Oval";           // constant for oval
+  public static final String ARC = "Arc";             //constant for arc
 
   // private instance variables
   private Color color; // color to draw shape in
